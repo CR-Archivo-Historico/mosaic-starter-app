@@ -13,7 +13,7 @@ export class InfoService {
   ) { }
 
   getProps() {
-    console.log(this._httpClient.get<ApiProps>('http://localhost:8080/starter-api/api/info'));
+    //console.log(this._httpClient.get<ApiProps>('http://localhost:8080/starter-api/api/info'));
     
     return this._httpClient.get<ApiProps>('http://localhost:8080/starter-api/api/info');
   }
