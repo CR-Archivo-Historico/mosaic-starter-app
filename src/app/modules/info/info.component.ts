@@ -13,8 +13,8 @@ export class InfoComponent implements OnInit {
 
   version = '21.07';
 
-  apiProps: ApiProps = {"time":"2021-07-08","version":"0.0",
-      "artifact":"starter","name":"starter","group":"mosaic"};
+  apiProps: ApiProps = {"time":"2021-01-01","version":"0.0",
+      "artifact":"starter","name":"SIN CONEXION","group":"mosaic"};
  
       constructor( private _infoService: InfoService ) { }
 

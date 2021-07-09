@@ -1,3 +1,16 @@
-<p>Starter App version: {{version}}</p>
+<style>  
+    .content {
+      display: flex;
+      margin: 32px auto 32px;
+      padding: 0 16px;
+      max-width: 960px;
+      flex-direction: column;
+      align-items: center;
+    }
+</style>
 
-<p>Server: {{apiProps.name}} {{apiProps.version}}</p>
+<div class="content">
+    <h2>Starter App version: {{version}}</h2>
+
+    <h2>Server: {{apiProps.name}} {{apiProps.version}}</h2>
+</div>
